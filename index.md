@@ -1,6 +1,28 @@
-# Đăng ký
-## Luôn miễn phí
-
+<html>
+<head>
+  <title>Bài về nhà 1</title>
+  <style>
+  h1 {color: black;}
+  h2 {color: black;}
+  h3 {color:#0e385f;}
+  body {background-color: powderblue;}
+  </style>
+<meta name="description" content="Baivenha" />
+<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+<meta name="author" content="duchieu" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+<body>
+<table style="width:100%">
+  <tr>
+  <td>
+  <h3>Facebook giúp bạn kết nối và chia sẻ với</h3>
+  <h3>mọi người trong cuộc sống của bạn.<h3>
+  <img src="pyNVUg5EM0j.png" />
+  </td>
+  <td>
+  <h1>Đăng ký</h1>
+  <h2>Luôn miễn phí.</h2>
 <table style="width:100%">
   <tr>
   <td>
@@ -208,3 +230,5 @@
   </td>
 </form>
 </tr>
+</body>
+</html>  
