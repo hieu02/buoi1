@@ -17,37 +17,23 @@
   <tr>
   <td>
   <h3>Facebook giúp bạn kết nối và chia sẻ với</h3>
-  <h3>mọi người trong cuộc sống của bạn.<h3>
+  <h3>mọi người trong cuộc sống của bạn.</h3>
   <img src="pyNVUg5EM0j.png" />
   </td>
   <td>
   <h1>Đăng ký</h1>
   <h2>Luôn miễn phí.</h2>
-<table style="width:100%">
-  <tr>
-  <td>
   <form action="/action_page.php">
   <input type="text" name="Họ" placeholder="Họ">
-  </td>
-  <td>
   <input type="text" name="Tên" placeholder="Tên">
-  </td>
 </form> 
-  <td>
   <form action="/action_page.php">
   <input type="text" name="Số di động hoặc email" placeholder="Số di động hoặc email"><br>
-  </td>
   </form> 
-  <td>
 <form action="/action_page.php">
   <input type="password" name="Mật khẩu mới" placeholder="Mật khẩu mới"><br>
-  </td>
 </form> 
   Ngày sinh:
-  </tr>
-<table style="width:100%">
-  <tr>
-  <td>
   <form>
   <select>
   <option value="Ngày">Ngày</option>
@@ -212,23 +198,14 @@
   <option value="1907">1907</option>
   <option value="1906">1906</option>
   <option value="1905">1905</option>
-  </td>
   </form>
-  </tr>
-  <td> 
   <a class="mlm _58ms" id="birthday-help" href="#" ajaxify="/help/ajax/reg_birthday/" title="Nhấp chuột để biết thêm thông tin" rel="async" role="button" aria-controls="js_iz" aria-haspopup="true" aria-describedby="js_j0" tabindex="0">Tại sao tôi cần cung cấp ngày sinh của mình?</a>
-  </td>
- <table style="width:100%">
-  <tr>
-  <td>
   <form>
   <input type="radio" name="gender" value="Nữ" checked> Nữ
   <input type="radio" name="gender" value="Nam"> Nam<br>
   <input type="submit" value="Tạo tài khoản">
-  </td>
-  </tr>
-  </td>
 </form>
+</td>
 </tr>
 </body>
 </html>  
