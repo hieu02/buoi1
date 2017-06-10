@@ -1,14 +1,15 @@
 <title>btvn</title>
 <script>
 function checkinformation(){
-var a = document.forms["create"]["fname"].value;
-if (a == "") {
-        alert("tên!");
-        return false;
-		}
+
 var b = document.forms["create"]["lname"].value;
 if (b == "") {
         alert("họ! ");
+        return false;
+		}
+var a = document.forms["create"]["fname"].value;
+if (a == "") {
+        alert("tên!");
         return false;
 		}
 var c = document.forms["create"]["sdtoremail"].value;
@@ -16,6 +17,11 @@ var c = document.forms["create"]["sdtoremail"].value;
         alert("số điện thoại hoặc Email!");
         return false;
 		}
+var h = document.forms["create"]["password"].value;
+if (h == "")
+		alert("mật khẩu!");
+		return false;
+}
 var d = document.forms["create"]["bday"].value;
 if (d ==""){
 		alert("ngày sinh!");
@@ -36,11 +42,7 @@ if (g ==""){
 		alert("giới tính!")
 		return false;
 	}
-var h = document.forms["create"]["password"].value;
-if (h == "")
-		alert("mật khẩu!");
-		return false;
-}
+
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
