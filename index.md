@@ -5,54 +5,55 @@
 function checkinformation(){
 var a = document.forms["create"]["fname"].value;
 if (a == "") {
-        alert("làm ơn điền tên!");
+        alert("Tên bạn là gì?");
         return false;
 		}
 var b = document.forms["create"]["lname"].value;
 if (b == "") {
-        alert("làm ơn điền họ! ");
+        alert("Tên bạn là gì?");
         return false;
 		}
 var c = document.forms["create"]["sdtoremail"].value;
  if (c == "") {
-        alert("làm ơn điền số điện thoại hoặc Email!");
+        alert("Bạn sẽ sử dụng thông tin này khi đăng nhập và khi cần đặt lại mật khẩu.");
         return false;
 		}
+var h = document.forms["create"]["password"].value;
+if (h == "")
+		alert("Nhập mật khẩu có tối thiểu 6 ký tự bao gồm số, chữ cái và dấu chấm câu (như ! và .).");
+		return false;
+}
 var d = document.forms["create"]["bday"].value;
 if (d ==""){
-		alert("làm ơn chọn ngày sinh!");
+		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
 		return false;
 	}
 var e = document.forms["create"]["bmonth"].value;
 if (e ==""){
-		alert("làm ơn chọn tháng sinh!");
+		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
 		return false;
 	}
 var f = document.forms["create"]["byear"].value;
 if (f ==""){
-		alert("làm ơn chọn năm sinh!");
+		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
 		return false;
 	}
 var g = document.forms["create"]["gender"].value;
 if (g ==""){
-		alert("làm ơn chọn giới tính!")
+		alert("Vui lòng chọn giới tính. Bạn có thể thay đổi người có thể xem nội dung này sau.")
 		return false;
 	}
-var h = document.forms["create"]["password"].value;
-if (h == "")
-		alert("là ơn điền mật khẩu!");
-		return false;
-}
+
 </script>
 họ và tên: <br>
 <form name="create" onsubmit="return checkinformation()">
-<input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
-<input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
-<input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
-<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;"><br>
+<input type="text" name="fname" placeholder="Họ"> 
+<input type="text" name="lname" placeholder="Tên"><br><br>
+<input type="text" name="sdtoremail" placeholder="Số di dộng hoặc email"><br><br>
+<input type="password" name="password" placeholder="Mật khẩu mới"><br>
 ngày sinh <br>
 <select name="bday" >
-	<option value="" selected>ngày</option>
+	<option value="" selected>Ngày</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -86,7 +87,7 @@ ngày sinh <br>
 	<option value="31">31</option>
 </select>	
 <select name="bmonth">
-	<option value="" selected> tháng </option>
+	<option value="" selected>Tháng</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -101,7 +102,7 @@ ngày sinh <br>
 	<option value="12">12</option>
 </select>
 <select name="byear">
-	<option value="" selected> năm </option>
+	<option value="" selected>Năm</option>
 	<option value="2017">2017</option>
 	<option value="2016">2016</option>
 	<option value="2015">2015</option>
@@ -179,7 +180,7 @@ ngày sinh <br>
 	<option value="1942">1942</option>
 </select><br><br>
 giới tính:<br> 
-<input type="radio" name="gender" value="nam" >nam<br>
-<input type="radio" name="gender" value="nữ">nữ<br>
-<input id="button!" type="submit" name="submited" value="tạo tài khoản" >
+<input type="radio" name="gender" value="Nam" >Nam<br>
+<input type="radio" name="gender" value="Nữ">Nữ<br>
+<input id="button!" type="submit" name="submited" value="Tạo tài khoản" >
 </form>
