@@ -201,4 +201,5 @@
    Nữ
    <br>
 </form>
-       <button>Đăng kí</button>
+      <button type="submit" name="Tạo tài khoản">
+      </button>
