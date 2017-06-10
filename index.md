@@ -3,12 +3,12 @@
 function checkinformation(){
 
 
-var a = document.forms["create"]["lname"].value;
+var a = document.forms["create"]["fname"].value;
 if (a == "") {
         alert("Họ!");
         return false;
 		}
-var b = document.forms["create"]["fname"].value;
+var b = document.forms["create"]["lname"].value;
 if (b == "") {
         alert("Tên! ");
         return false;
