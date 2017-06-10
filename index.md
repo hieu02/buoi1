@@ -15,7 +15,7 @@ if (b == "") {
 		}
 var c = document.forms["create"]["sdtoremail"].value;
  if (c == "") {
-        alert("Số điện thoại hoặc Email!");
+        alert("Số di động hoặc Email!");
         return false;
 		}
 
