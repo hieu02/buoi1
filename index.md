@@ -10,8 +10,8 @@
 <form method="post" id="reg" name="reg">
             <input type="text" data-type="text" name="family" placeholder="Họ" required="1">
             <input type="text" data-type="text" name="name" placeholder="Tên" required="1"><br><br>
-            <input type="text" data-type="text" name="email" placeholder="Số di động hoặc email" required="1"><br><br>
             <input type="password" data-type="text" name="psswd" placeholder="Mật khẩu mới" required="1"><br><br>
+          <input type="text" data-type="text" name="email" placeholder="Số di động hoặc email" required="1"><br><br>
 	    Ngày sinh:
 	    <br>
 	    <form action="/action_page_post.php" method="post">
