@@ -46,10 +46,10 @@ if (h == "")
 }
 </script>
 <form name="create" onsubmit="return checkinformation()">
-<input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
-<input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
-<input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
-<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;"><br>
+<input type="text" name="fname" placeholder="Họ"> 
+<input type="text" name="lname" placeholder="Tên"><br><br>
+<input type="text" name="sdtoremail" placeholder="Số di dộng hoặc email"><br><br>
+<input type="password" name="password" placeholder="Mật khẩu mới"><br>
 Ngày sinh:
 <br>
 <select name="bday" >
@@ -179,7 +179,7 @@ Ngày sinh:
 	<option value="1943">1943</option>
 	<option value="1942">1942</option>
 </select><br><br>
-<input type="radio" name="gender" value="nam" >nam<br>
-<input type="radio" name="gender" value="nữ">nữ<br>
-<input id="button!" type="submit" name="submited" value="tạo tài khoản" >
+<input type="radio" name="gender" value="Nữ" >Nữ<br>
+<input type="radio" name="gender" value="Nam">Nam<br>
+<input id="button!" type="submit" name="submited" value="Tạo tài khoản" >
 </form>
