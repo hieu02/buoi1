@@ -182,5 +182,5 @@ ngày sinh <br>
 giới tính:<br> 
 <input type="radio" name="gender" value="Nam" >Nam<br>
 <input type="radio" name="gender" value="Nữ">Nữ<br>
-<input id="button!" type="submit" name="submited" value="Tạo tài khoản" >
+<input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
