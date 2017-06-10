@@ -1,6 +1,5 @@
 <title>btvn</title>
 <script>
-function checkinformation(){
 var a = document.forms["create"]["fname"].value;
 var b = document.forms["create"]["lname"].value;
 var c = document.forms["create"]["sdtoremail"].value;
