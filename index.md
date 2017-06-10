@@ -14,7 +14,7 @@
             <input type="password" data-type="text" name="psswd" placeholder="Mật khẩu mới" required="1"><br><br>
 	    Ngày sinh:
 	    <br>
-            <select aria-label="dob" name="birthday_day" id="day" title="Ngày">
+            <select aria-label="dob" name="birthday_day" id="day" title="Ngày" required list="Ngày">
 	    <option value="0" selected="1">Ngày</option>
 	    <option value="1">31</option>
 	    <option value="2">30</option>
@@ -48,7 +48,7 @@
 	    <option value="30">2</option>
 	    <option value="31">1</option>
 	    </select>
-            <select aria-label="mob" name="birthday_month" id="month" title="Tháng">
+            <select aria-label="mob" name="birthday_month" id="month" title="Tháng" required list="Tháng">
 	    <option value="0" selected="1">Tháng</option>
 	    <option value="1">Tháng 12</option>
 	    <option value="2">Tháng 11</option>
@@ -62,7 +62,7 @@
 	    <option value="11">Tháng 3</option>
 	    <option value="12">Tháng 2</option>
 	    </select>
-            <select aria-label="yob" name="birthday_year" id="year" title="Năm">
+            <select aria-label="yob" name="birthday_year" id="year" title="Năm" required list="Năm">
 	    <option value="0" selected="1">Năm</option>
 	    <option value="2017">2017</option>
 	    <option value="2016">2016</option>
