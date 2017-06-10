@@ -1,15 +1,6 @@
-<html>
-<h1>Tạo tài khoản mới</h1>
-<h2>miễn phí và sẽ luôn như vậy.</h2>
-
-<head>
-<meta name="description" content="Baivenha" />
-<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
-<meta name="author" content="duchieu" />
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-</head>
-<body>
-<title>btvn</title>
+# Đăng ký
+## Luôn miễn phí.
+<title>BVN</title>
 <script>
 function checkinformation(){
 var a = document.forms["create"]["fname"].value;
@@ -53,9 +44,6 @@ if (h == "")
 		return false;
 }
 </script>
-<head>
-
-<body>
 họ và tên: <br>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
@@ -195,5 +183,3 @@ giới tính:<br>
 <input type="radio" name="gender" value="nữ">nữ<br>
 <input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
-</body>
-</html>
