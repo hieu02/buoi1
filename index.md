@@ -2,47 +2,48 @@
 <script>
 function checkinformation(){
 
-var b = document.forms["create"]["lname"].value;
-if (b == "") {
-        alert("họ! ");
+
+var a = document.forms["create"]["lname"].value;
+if (a == "") {
+        alert("Họ!");
         return false;
 		}
-var a = document.forms["create"]["fname"].value;
-if (a == "") {
-        alert("tên!");
+var b = document.forms["create"]["fname"].value;
+if (b == "") {
+        alert("Tên! ");
         return false;
 		}
 var c = document.forms["create"]["sdtoremail"].value;
  if (c == "") {
-        alert("số điện thoại hoặc Email!");
+        alert("Số điện thoại hoặc Email!");
         return false;
 		}
-var h = document.forms["create"]["password"].value;
-if (h == "")
-		alert("mật khẩu!");
-		return false;
-}
-var d = document.forms["create"]["bday"].value;
+
+var d = document.forms["create"]["password"].value;
 if (d ==""){
+		alert("Mật khẩu!");
+		return false;
+	}
+var e = document.forms["create"]["bday"].value;
+if (e ==""){
 		alert("ngày sinh!");
 		return false;
 	}
-var e = document.forms["create"]["bmonth"].value;
-if (e ==""){
+var f = document.forms["create"]["bmonth"].value;
+if (f ==""){
 		alert("tháng sinh!");
 		return false;
 	}
-var f = document.forms["create"]["byear"].value;
-if (f ==""){
-		alert("năm sinh!");
-		return false;
-	}
-var g = document.forms["create"]["gender"].value;
+var g = document.forms["create"]["byear"].value;
 if (g ==""){
-		alert("giới tính!")
+		alert("năm sinh!")
 		return false;
 	}
-
+var h = document.forms["create"]["gender"].value;
+if (h == "")
+		alert("giới tính!");
+		return false;
+}
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
