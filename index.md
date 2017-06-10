@@ -50,6 +50,8 @@
 	<option value="30"></option>
 	<option value="31"></option>
 	</datalist>
+	</form>
+	<form action="/action_page_post.php" method="post">
             <input type="text" name="Tháng" required="" input="" list="Tháng" placeholder="Tháng">
 	   <datalist id="Tháng">
 	<option value="Tháng"> 
@@ -66,6 +68,8 @@
 	<option value="11"></option>
 	<option value="12"></option>
 	</datalist>
+	</form>
+	<form action="/action_page_post.php" method="post">
            <input type="text" name="Năm" required="" list="Năm" placeholder="Năm">
 	    <datalist id="Năm">
         <option value="Năm">
