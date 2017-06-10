@@ -44,7 +44,6 @@ if (h == "")
 		alert("giới tính!");
 		return false;
 }
-if(field1 != null && field2 !=null........) { thông báo thành công}
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
