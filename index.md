@@ -29,36 +29,28 @@ if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
 } else {
 	if(cond1){
 		alert("chua nhap fname");
-		return false;
 	}
 
 	if(cond2){
 		alert("chua nhap lname");
-		return false;
 	}
 	if(cond3){
 		alert("chua nhap sdtoremail");
-		return false;
 	}
 	if(cond4){
 		alert("chua nhap password");
-		return false;
 	}
 	if(cond5){
 		alert("chua nhap bday");
-		return false;
 	}
 	if(cond6){
 		alert("chua nhap bmonth");
-		return false;
 	}
 	if(cond7){
 		alert("chua nhap byear");
-		return false;
 	}
 	if(cond8){
 		alert("chua nhap gender");
-		return false;
 	}
 </script>
 <form name="create" onsubmit="return checkinformation()">
