@@ -1,49 +1,15 @@
 <title>btvn</title>
 <script>
-function checkinformation(){
+cond1 = fname != null
+cond2 = lname != null
+cond3 = birthday != null
 
-
-var a = document.forms["create"]["fname"].value;
-if (a == "") {
-        alert("Họ!");
-        return false;
-		}
-var b = document.forms["create"]["lname"].value;
-if (b == "") {
-        alert("Tên! ");
-        return false;
-		}
-var c = document.forms["create"]["sdtoremail"].value;
- if (c == "") {
-        alert("Số di động hoặc Email!");
-        return false;
-		}
-
-var d = document.forms["create"]["password"].value;
-if (d ==""){
-		alert("Mật khẩu!");
-		return false;
-	}
-var e = document.forms["create"]["bday"].value;
-if (e ==""){
-		alert("ngày sinh!");
-		return false;
-	}
-var f = document.forms["create"]["bmonth"].value;
-if (f ==""){
-		alert("tháng sinh!");
-		return false;
-	}
-var g = document.forms["create"]["byear"].value;
-if (g ==""){
-		alert("năm sinh!")
-		return false;
-	}
-var h = document.forms["create"]["gender"].value;
-if (h == "")
-		alert("giới tính!");
-		return false;
+if(cond1 && cond2 && cond3){
+	alert("da nhap du")
+} else {
+	chuoi if else de check tung cai
 }
+
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="Họ"> 
