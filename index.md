@@ -47,7 +47,7 @@ if (g ==""){
 <head>
 
 <body>
-họ và tên: <br>
+<br>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="Họ"> 
 <input type="text" name="lname" placeholder="Tên"><br><br>
@@ -55,7 +55,7 @@ họ và tên: <br>
 <input type="password" name="password" placeholder="Mật khẩu mới"><br>
 Ngày sinh:<br>
 <select name="yyyy" >
-	<option value="" selected>ngày</option>
+	<option value="" selected>Ngày</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -89,7 +89,7 @@ Ngày sinh:<br>
 	<option value="31">31</option>
 </select>	
 <select name="yyyy">
-	<option value="" selected> tháng </option>
+	<option value="" selected>Tháng</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -104,7 +104,7 @@ Ngày sinh:<br>
 	<option value="12">12</option>
 </select>
 <select name="yyyy">
-	<option value="" selected> năm </option>
+	<option value="" selected>Năm</option>
 	<option value="2017">2017</option>
 	<option value="2016">2016</option>
 	<option value="2015">2015</option>
@@ -182,7 +182,7 @@ Ngày sinh:<br>
 	<option value="1942">1942</option>
 </select><br><br>
 <br> 
-<input type="radio" name="gender" value="nam" >nam<br>
-<input type="radio" name="gender" value="nữ">nữ<br>
+<input type="radio" name="gender" value="Nữ" >Nữ<br>
+<input type="radio" name="gender" value="Nam">Nam<br>
 <input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
