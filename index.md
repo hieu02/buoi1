@@ -17,7 +17,7 @@
 	    <form action="/action_page_post.php" method="post">
             <input type="text" name="Ngày" required="" list="Ngày" placeholder="Ngày">
 	    <datalist id="Ngày">
-	<option value="Ngày">
+	    <option value="Ngày"></option>
 	<option value="1"></option>
 	<option value="2"></option>
 	<option value="3"></option>
@@ -54,7 +54,7 @@
 	<form action="/action_page_post.php" method="post">
             <input type="text" name="Tháng" required="" input="" list="Tháng" placeholder="Tháng">
 	   <datalist id="Tháng">
-	<option value="Tháng"> 
+	   <option value="Tháng"></option>
 	<option value="1"></option>
 	<option value="2"></option>
 	<option value="3"></option>
@@ -72,7 +72,7 @@
 	<form action="/action_page_post.php" method="post">
            <input type="text" name="Năm" required="" list="Năm" placeholder="Năm">
 	    <datalist id="Năm">
-        <option value="Năm">
+	    <option value="Năm"></option>
         <option value="1958"></option>
 	<option value="1959"></option>
 	<option value="1960"></option>
