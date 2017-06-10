@@ -1,6 +1,11 @@
 <html>
 
-<head></head>
+<head>
+<style>
+            #reg {
+                text-align: left;
+</style>
+</head>
 
 <body>
 
@@ -200,6 +205,9 @@
   <input type="radio" name="gender" value="Nữ">
    Nữ
    <br>
+   
+
+<p>Click vào nút đăng kí để hoàn thành:</p>
+
+<button>Đăng kí</button>
 </form>
-      <button type="submit" name="Tạo tài khoản">
-      </button>
