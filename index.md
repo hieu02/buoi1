@@ -1,16 +1,25 @@
-# Đăng ký
-## Luôn miễn phí.
-<title>BVN</title>
+<html>
+<h1>Tạo tài khoản mới</h1>
+<h2>miễn phí và sẽ luôn như vậy.</h2>
+
+<head>
+<meta name="description" content="Baivenha" />
+<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+<meta name="author" content="duchieu" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+<body>
+<title>btvn</title>
 <script>
 function checkinformation(){
 var a = document.forms["create"]["fname"].value;
 if (a == "") {
-        alert("Tên bạn là gì?");
+        alert("Họ bạn là gì");
         return false;
 		}
 var b = document.forms["create"]["lname"].value;
 if (b == "") {
-        alert("Tên bạn là gì?");
+        alert("Tên bạn là gì");
         return false;
 		}
 var c = document.forms["create"]["sdtoremail"].value;
@@ -20,40 +29,33 @@ var c = document.forms["create"]["sdtoremail"].value;
 		}
 var h = document.forms["create"]["password"].value;
 if (h == "")
-		alert("Nhập mật khẩu có tối thiểu 6 ký tự bao gồm số, chữ cái và dấu chấm câu (như ! và .).");
+		alert("Nhập mật khẩu bao gồm 6 ký tự bao gồm số, chữ cái và dấu chấm câu.");
 		return false;
 }
-var d = document.forms["create"]["bday"].value;
-if (d ==""){
-		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
-		return false;
-	}
-var e = document.forms["create"]["bmonth"].value;
-if (e ==""){
-		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
-		return false;
-	}
-var f = document.forms["create"]["byear"].value;
+var f = document.forms["create"]["yyyy"].value;
 if (f ==""){
-		alert("Chọn nội dung của bạn. Bạn có thể thay đổi người có thể xem nội dung này sau.");
+		alert("Chọn ngày sinh của bạn.");
 		return false;
 	}
 var g = document.forms["create"]["gender"].value;
 if (g ==""){
-		alert("Vui lòng chọn giới tính. Bạn có thể thay đổi người có thể xem nội dung này sau.")
+		alert("Vui lòng chọn giới tính.")
 		return false;
 	}
 
 </script>
+<head>
+
+<body>
 họ và tên: <br>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="Họ"> 
 <input type="text" name="lname" placeholder="Tên"><br><br>
 <input type="text" name="sdtoremail" placeholder="Số di dộng hoặc email"><br><br>
 <input type="password" name="password" placeholder="Mật khẩu mới"><br>
-ngày sinh <br>
-<select name="bday" >
-	<option value="" selected>Ngày</option>
+Ngày sinh:<br>
+<select name="yyyy" >
+	<option value="" selected>ngày</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -86,8 +88,8 @@ ngày sinh <br>
 	<option value="30">30</option>
 	<option value="31">31</option>
 </select>	
-<select name="bmonth">
-	<option value="" selected>Tháng</option>
+<select name="yyyy">
+	<option value="" selected> tháng </option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -101,8 +103,8 @@ ngày sinh <br>
 	<option value="11">11</option>
 	<option value="12">12</option>
 </select>
-<select name="byear">
-	<option value="" selected>Năm</option>
+<select name="yyyy">
+	<option value="" selected> năm </option>
 	<option value="2017">2017</option>
 	<option value="2016">2016</option>
 	<option value="2015">2015</option>
@@ -179,8 +181,8 @@ ngày sinh <br>
 	<option value="1943">1943</option>
 	<option value="1942">1942</option>
 </select><br><br>
-giới tính:<br> 
-<input type="radio" name="gender" value="Nam" >Nam<br>
-<input type="radio" name="gender" value="Nữ">Nữ<br>
+<br> 
+<input type="radio" name="gender" value="nam" >nam<br>
+<input type="radio" name="gender" value="nữ">nữ<br>
 <input id="button!" type="submit" name="submited" value="tạo tài khoản" >
 </form>
