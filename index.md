@@ -14,7 +14,8 @@
             <input type="password" data-type="text" name="psswd" placeholder="Mật khẩu mới" required="1"><br><br>
 	    Ngày sinh:
 	    <br>
-            <select aria-label="dob" name="birthday_day" id="day" title="Ngày" required list="Ngày">
+	    <form action="/action_page_post.php" method="post">
+            <input type="text" name="Ngày" required="" list="Ngày" placeholder="Ngày">
 	    <option value="0" selected="1">Ngày</option>
 	    <option value="1">31</option>
 	    <option value="2">30</option>
@@ -47,8 +48,7 @@
 	    <option value="29">3</option>
 	    <option value="30">2</option>
 	    <option value="31">1</option>
-	    </select>
-            <select aria-label="mob" name="birthday_month" id="month" title="Tháng" required list="Tháng">
+            <input type="text" name="Tháng" required="" input="" list="Tháng" placeholder="Tháng">
 	    <option value="0" selected="1">Tháng</option>
 	    <option value="1">Tháng 12</option>
 	    <option value="2">Tháng 11</option>
@@ -61,8 +61,7 @@
 	    <option value="10">Tháng 4</option>
 	    <option value="11">Tháng 3</option>
 	    <option value="12">Tháng 2</option>
-	    </select>
-            <select aria-label="yob" name="birthday_year" id="year" title="Năm" required list="Năm">
+           <input type="text" name="Năm" required="" list="Năm" placeholder="Năm">
 	    <option value="0" selected="1">Năm</option>
 	    <option value="2017">2017</option>
 	    <option value="2016">2016</option>
@@ -177,7 +176,7 @@
 	    <option value="1907">1907</option>
 	    <option value="1906">1906</option>
 	    <option value="1905">1905</option>
-	    </select><br><br>
+	    <br><br>
             <input type="radio" name="sex" value="1">
             <label style="font-size: larger">Nữ</label>
             <input type="radio" name="sex" value="2">
