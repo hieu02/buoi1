@@ -182,6 +182,6 @@
             <label style="font-size: larger">Nữ</label>
             <input type="radio" name="sex" value="2">
             <label style="font-size: larger">Nam</label><br><br>
-            <button type="submit" name="submit" value="Tạo tài khoản">
+            <button type="submit" name="submit" value="Tạo tài khoản" style=" width: 40px; height: 120px">
             </button>
 </form>
