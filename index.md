@@ -201,11 +201,4 @@
    Nữ
    <br>
 </form>
-        <input type="radio" name="sex" value="1">
-        <label style="font-size: larger">Nữ</label>
-        <input type="radio" name="sex" value="2">
-        <label style="font-size: larger">Nam</label><br><br>
-        <form> 
-	<input type="submit" value="Tạo tài khoản">
-</form>
-</form>
+       <button>Đăng kí</button>
