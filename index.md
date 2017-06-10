@@ -1,5 +1,6 @@
 <title>btvn</title>
 <script>
+function checkinformation(){
 var a = document.forms["create"]["fname"].value;
 var b = document.forms["create"]["lname"].value;
 var c = document.forms["create"]["sdtoremail"].value;
@@ -25,32 +26,32 @@ cond6 = bmonth != null
 cond7 = byear != null
 cond8 = gender != null
 if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
-	alert("da nhap du")
+	alert("da nhap du");
 } else {
 	if(cond1){
-		alert("chua nhap fname")	
+		alert("chua nhap fname");	
 	}
 
 	if(cond2){
-		alert("chua nhap lname")
+		alert("chua nhap lname");
 	}
 	if(cond3){
-		alert("chua nhap sdtoremail")
+		alert("chua nhap sdtoremail");
 	}
 	if(cond4){
-		alert("chua nhap password")
+		alert("chua nhap password");
 	}
 	if(cond5){
-		alert("chua nhap bday")
+		alert("chua nhap bday");
 	}
 	if(cond6){
-		alert("chua nhap bmonth")
+		alert("chua nhap bmonth");
 	}
 	if(cond7){
-		alert("chua nhap byear")
+		alert("chua nhap byear");
 	}
 	if(cond8){
-		alert("chua nhap gender")
+		alert("chua nhap gender");
 	}
 }
 
