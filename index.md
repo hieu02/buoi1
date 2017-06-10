@@ -177,6 +177,7 @@
 	    <option value="1906">1906</option>
 	    <option value="1905">1905</option>
 	    <br><br>
+	    </form>
             <input type="radio" name="sex" value="1">
             <label style="font-size: larger">Nữ</label>
             <input type="radio" name="sex" value="2">
