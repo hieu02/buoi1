@@ -1,6 +1,7 @@
 # Đăng kí
 ## Luôn miễn phí
 <script>
+function checkinformation() {
 var a = document.forms["create"]["fname"].value;
 var b = document.forms["create"]["lname"].value;
 var c = document.forms["create"]["sdtoremail"].value;
@@ -53,6 +54,7 @@ if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
 	if(cond8){
 		alert("chua nhap gender");
 	}
+}
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="Họ"> 
