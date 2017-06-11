@@ -18,14 +18,14 @@ bday = document.forms["create"]["bday"].value;
 bmonth = document.forms["create"]["bmonth"].value;
 byear = document.forms["create"]["byear"].value;
 gender = document.forms["create"]["gender"].value;
-cond1 = fname != null
-cond2 = lname != null
-cond3 = sdtoremail != null
-cond4 = password != null
-cond5 = bday != null
-cond6 = bmonth != null
-cond7 = byear != null
-cond8 = gender != null
+cond1 = fname != null;
+cond2 = lname != null;
+cond3 = sdtoremail != null;
+cond4 = password != null;
+cond5 = bday != null;
+cond6 = bmonth != null;
+cond7 = byear != null;
+cond8 = gender != null;
 if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
 	alert("da nhap du");
 } else {
