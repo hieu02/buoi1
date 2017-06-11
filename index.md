@@ -2,6 +2,14 @@
 ## Luôn miễn phí
 <title>btvn</title>
 <script>
+var a = document.forms["create"]["fname"].value;
+var b = document.forms["create"]["lname"].value;
+var c = document.forms["create"]["sdtoremail"].value;
+var d = document.forms["create"]["password"].value;
+var e = document.forms["create"]["bday"].value;
+var f = document.forms["create"]["bmonth"].value;
+var g = document.forms["create"]["byear"].value;
+var h = document.forms["create"]["gender"].value;
 fname = document.forms["create"]["fname"].value;
 lname = document.forms["create"]["lname"].value;
 sdtoremail = document.forms["create"]["sdtoremail"].value;
