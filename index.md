@@ -192,5 +192,5 @@ Ngày sinh:
 </select><br><br>
 <input type="radio" name="gender" value="Nữ" >Nữ<br>
 <input type="radio" name="gender" value="Nam">Nam<br>
-<input id="button!" type="submit" name="submited" value="Tạo tài khoản" >
 </form>
+<button onclick="checkinformation()">Tạo tài khoản</button>
