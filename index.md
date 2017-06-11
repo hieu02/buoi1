@@ -26,6 +26,9 @@ cond5 = bday = !null
 cond6 = bmonth = !null
 cond7 = byear = !null
 cond8 = gender = !null
+if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
+	alert("da nhap du");
+} else {
 	if(cond1){
 		alert("chua nhap fname");
 	}
@@ -50,10 +53,6 @@ cond8 = gender = !null
 	}
 	if(cond8){
 		alert("chua nhap gender");
-} else {
-if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
-	alert("da nhap du");
-} 
 }
 }
 </script>
