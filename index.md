@@ -1,15 +1,22 @@
 # Đăng kí
 ## Luôn miễn phí
-<title>btvn</title>
 <script>
-var fname = document.forms["create"]["fname"].value;
-var lname = document.forms["create"]["lname"].value;
-var sdtoremail = document.forms["create"]["sdtoremail"].value;
-var password = document.forms["create"]["password"].value;
-var bday = document.forms["create"]["bday"].value;
-var bmonth = document.forms["create"]["bmonth"].value;
-var byear = document.forms["create"]["byear"].value;
-var gender = document.forms["create"]["gender"].value;
+var a = document.forms["create"]["fname"].value;
+var b = document.forms["create"]["lname"].value;
+var c = document.forms["create"]["sdtoremail"].value;
+var d = document.forms["create"]["password"].value;
+var e = document.forms["create"]["bday"].value;
+var f = document.forms["create"]["bmonth"].value;
+var g = document.forms["create"]["byear"].value;
+var h = document.forms["create"]["gender"].value;
+fname = document.forms["create"]["fname"].value;
+lname = document.forms["create"]["lname"].value;
+sdtoremail = document.forms["create"]["sdtoremail"].value;
+password = document.forms["create"]["password"].value;
+bday = document.forms["create"]["bday"].value;
+bmonth = document.forms["create"]["bmonth"].value;
+byear = document.forms["create"]["byear"].value;
+gender = document.forms["create"]["gender"].value;
 cond1 = fname != null
 cond2 = lname != null
 cond3 = sdtoremail != null
