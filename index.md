@@ -55,6 +55,7 @@ if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8){
 		alert("chua nhap gender");
 }
 }
+}
 </script>
 <form name="create" onsubmit="return checkinformation()">
 <input type="text" name="fname" placeholder="Họ"> 
