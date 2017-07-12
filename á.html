@@ -13,6 +13,7 @@
 <script>
 function checkinformation(){
 var a = document.forms["create"]["fname"].value;
+	
 if (a == "") {
         alert("làm ơn điền tên!");
         return false;
@@ -52,6 +53,17 @@ if (h == "")
 		alert("làm ơn điền mật khẩu!");
 		return false;
 }
+cond1 = fname != null
+cond2 = lname != null
+cond3 = sdtoremail != null
+cond4 = password != null
+cond5 = bday != null
+cond6 = bmonth != null
+cond7 = byear != null
+cond8 = gender != null
+if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8 ){
+	alert("da nhap du")
+} else {
 </script>
 
 
