@@ -14,45 +14,21 @@
 function checkinformation(){
 var a = document.forms["create"]["fname"].value;
 	
-if (a == "") {
-        alert("làm ơn điền tên!");
-        return false;
-		}
+
 var b = document.forms["create"]["lname"].value;
-if (b == "") {
-        alert("làm ơn điền họ! ");
-        return false;
-		}
+
 var c = document.forms["create"]["sdtoremail"].value;
- if (c == "") {
-        alert("làm ơn điền số điện thoại hoặc Email!");
-        return false;
-		}
+
 var d = document.forms["create"]["bday"].value;
-if (d ==""){
-		alert("làm ơn chọn ngày sinh!");
-		return false;
-	}
+
 var e = document.forms["create"]["bmonth"].value;
-if (e ==""){
-		alert("làm ơn chọn tháng sinh!");
-		return false;
-	}
+
 var f = document.forms["create"]["byear"].value;
-if (f ==""){
-		alert("làm ơn chọn năm sinh!");
-		return false;
-	}
+
 var g = document.forms["create"]["gender"].value;
-if (g ==""){
-		alert("làm ơn chọn giới tính!")
-		return false;
-	}
+
 var h = document.forms["create"]["password"].value;
-if (h == "")
-		alert("làm ơn điền mật khẩu!");
-		return false;
-}
+
 cond1 = fname != null
 cond2 = lname != null
 cond3 = sdtoremail != null
@@ -61,6 +37,38 @@ cond5 = bday != null
 cond6 = bmonth != null
 cond7 = byear != null
 cond8 = gender != null
+if(cond1 ) {
+	alert("làm ơn điền tên!");
+        return false;
+}
+	if (cond2) {
+        alert("làm ơn điền họ! ");
+        return false;
+		}
+ if (cond3) {
+        alert("làm ơn điền số điện thoại hoặc Email!");
+        return false;
+		}
+if (cond4){
+		alert("làm ơn chọn ngày sinh!");
+		return false;
+	}
+if (cond5){
+		alert("làm ơn chọn tháng sinh!");
+		return false;
+	}
+if (cond6){
+		alert("làm ơn chọn năm sinh!");
+		return false;
+	}
+if (cond7){
+		alert("làm ơn chọn giới tính!")
+		return false;
+	}
+if (cond8)
+		alert("làm ơn điền mật khẩu!");
+		return false;
+}
 if(cond1 && cond2 && cond3 && cond4 && cond5 && cond6 && cond7 && cond8 ){
 	alert("da nhap du")
 } else {
