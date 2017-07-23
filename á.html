@@ -213,7 +213,24 @@ ngày sinh <br>
 giới tính:<br> 
 <input type="radio" name="gender" value="nam" >nam<br>
 <input type="radio" name="gender" value="nữ">nữ<br>
-<input id="button!" type="submit" name="submited" value="tạo tài khoản" >
+<button onclick="taotaikhoan()"><p style="font-size:100%;">Tạo tài khoản</p></button>
+<script>
+            function taotaikhoan() {
+                var p1 = document.getElementById('name').value + ' ' + document.getElementById('name2').value;
+                var p2 = document.getElementById('email').value;
+                var p3 = document.getElementById('password').value;
+                var p4 = document.getElementById('day').value + '/' + document.getElementById('month').value + '/' + document.getElementById('year').value;
+                var p5 = "";
+                if (document.getElementById("female").checked) {
+                    p5 = "Nu";
+                }
+                if (document.getElementById("male").checked) {
+                    p5 = "Nam";
+                }
+                document.getElementById('total').innerHTML = 'Họ và tên: ' + ' ' + p1 + '<br>' + 'Số di động hoặc email: ' + ' ' + p2 + '<br>' + 'Mật khẩu mới: ' + p3 + '<br>' + 'Ngày sinh: ' + p4 + '<br>' + 'Giới tính: ' + p5;
+                
+                }
+        </script>
 </form>
 </body>
 </html>
